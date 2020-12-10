@@ -76,9 +76,19 @@ body {
     text-align: center;
 }
 
+/*Navigation */
+
 .menuicon{
     font-size: 2.5rem;
     float: right;
+}
+
+#Nav {
+    display: none;
+}
+
+#Nav a {
+    display: block;
 }
 
 /* Title */
