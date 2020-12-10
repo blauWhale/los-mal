@@ -1,23 +1,28 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+@import url(//db.onlinewebfonts.com/c/a772aa8a7d2a778d9a2a43cc6d96ada3?family=Leelawadee);
+
 /* Root/All */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: inherit;
+
 }
 
 html {
     font-size: 17px;
+    background-color: #d5c7bc;
 }
 
 
 /* Layout */
-.grid-container {
+.grid-container-body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    background-color: bisque;
-    grid-template-columns: 40px auto 40px;
+    grid-template-columns: 40px 1fr 40px;
     grid-template-rows: 65px 75px auto 65px;
     grid-template-areas:
                 "header header header"
@@ -28,34 +33,93 @@ html {
 
 #header {
     grid-area: header;
-    background-color: darkkhaki;
+    border: 1px black solid;
 }
 
 
 #title {
     grid-area: title;
-    background-color: #ff006f;
+    border: 1px black solid;
 }
 
 #main {
     grid-area: main;
-    background-color: cyan;
+    border: 1px black solid;
 }
 
 #footer {
     grid-area: footer;
-    background-color: darkorchid;
+    border: 1px black solid;
+}
+
+/* Body */
+
+body {
+    background-color: ##d5c7bc;
 }
 
 /* Header */
 
-.icon {
-    font-family: Asap;
-    font-size: 2.5rem;
-    float: left;
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #d5c7bc;
 }
 
-.logo {
+.icon {
+    font-size: 2.5rem;
+    float: left;
+    padding-left: 5px;
+}
+
+#header > .logo {
     text-align: center;
 }
 
+.menuicon{
+    font-size: 2.5rem;
+    float: right;
+}
+
+/* Title */
+
+#title {
+    font-family: "Asap";
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Main */
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.albumcover {
+    padding: 1vm;
+    width: 135px;
+}
+
+
+
+#main > div > p {
+    font-family: "Leelawadee";
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+/* Footer */
+
+.footertext {
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: "Leelawadee";
+
+}
