@@ -1,0 +1,10 @@
+albumscover_top1: https://images.genius.com/2f5b6533fe7921503c1bb1ea2a8dba2c.1000x1000x1.jpg
+albumscover_top2: https://images-na.ssl-images-amazon.com/images/I/71BekDJBb3L._SL1425_.jpg
+albumscover_top3: https://f4.bcbits.com/img/a3339089756_10.jpg
+albumscover_top4: https://lastfm.freetls.fastly.net/i/u/ar0/f6a65f5f23522ff6f1d6752fd12a3fde.jpg
+albumscover_top5: https://storage.highresaudio.com/2020/08/28/43szsk-energy-preview-m3.jpg
+albumscover_top6: https://i3.cdn.hhv.de/catalog/shop_detail_zoom/00658/658998.jpg
+albumscover_top7: https://lastfm.freetls.fastly.net/i/u/ar0/461fe4e8e5ee4eed9cf34766f3541dc8.jpg
+albumscover_top8: https://www.bobmarley.com/wp-content/uploads/2014/06/Bob-Marley-The-Wailers-Uprising.jpg
+albumscover_top9:
+albumscover_top10: https://f4.bcbits.com/img/a0778026342_10.jpg
