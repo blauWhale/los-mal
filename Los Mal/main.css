@@ -52,4 +52,10 @@ html {
 .icon {
     font-family: Asap;
     font-size: 2.5rem;
+    float: left;
 }
+
+.logo {
+    text-align: center;
+}
+
