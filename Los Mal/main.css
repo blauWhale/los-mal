@@ -1,29 +1,55 @@
+/* Root/All */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: auto;
 }
 
+html {
+    font-size: 17px;
+}
+
+
+/* Layout */
+.grid-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 40px auto 40px;
+    grid-template-rows: 65px 75px auto 65px;
+    grid-template-areas:
+                "header header header"
+                ". title ."
+                ". main ."
+                "footer footer footer";
+}
+
+#header {
+    grid-area: header;
+    background-color: darkkhaki;
+}
+
+
+#title {
+    grid-area: title;
+    background-color: #ff006f;
+}
+
+#main {
+    grid-area: main;
+    background-color: cyan;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: darkorchid;
+}
+
+/* Header */
 
 .icon {
     font-family: Asap;
-    font-size: 63pt;
-}
-
-.grid-container {
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: 50px 50px 50px;
-    background-color: #2196F3;
-    justify-items: center;
-    align-items: center;
-
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    font-size: 2.5rem;
 }
