@@ -81,6 +81,8 @@ body {
 .menuicon{
     font-size: 2.5rem;
     float: right;
+    text-decoration: none;
+    color: #454545;
 }
 
 #Nav {
@@ -89,6 +91,8 @@ body {
 
 #Nav a {
     display: block;
+    text-decoration: none;
+    color: black;
 }
 
 /* Title */
@@ -131,5 +135,6 @@ body {
     text-align: center;
     font-size: 0.7rem;
     font-family: "Leelawadee";
+    margin-top: 20px;
 
 }
