@@ -19,6 +19,11 @@ html {
 p {
     color: #454545;
 }
+
+a {
+    color: #123C69;
+}
+
 /* Layout */
 .grid-container-body {
     width: 100vw;

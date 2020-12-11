@@ -1,0 +1,36 @@
+* {
+    overflow-x: hidden;
+}
+
+table {
+    width:100%;
+    font-family: Leelawadee;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    margin-bottom: 5px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #454545;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #D5C7BC;
+}
+th {
+    background-color: #D5C7BC;
+    color: #454545;
+    font-weight: bold;
+}
+
+capti
