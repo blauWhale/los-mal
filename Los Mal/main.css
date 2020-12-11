@@ -16,14 +16,16 @@ html {
     background-color: #d5c7bc;
 }
 
-
+p {
+    color: #454545;
+}
 /* Layout */
 .grid-container-body {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 40px 1fr 40px;
-    grid-template-rows: 65px 75px auto 65px;
+    grid-template-rows: 65px 65px auto 65px;
     grid-template-areas:
                 "header header header"
                 ". title ."
@@ -55,7 +57,7 @@ html {
 /* Body */
 
 body {
-    background-color: ##d5c7bc;
+
 }
 
 /* Header */
@@ -66,9 +68,11 @@ body {
     background-color: #d5c7bc;
 }
 
-.icon {
+#header > .icon {
     font-size: 2.5rem;
-    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
     padding-left: 5px;
 }
 
@@ -87,12 +91,25 @@ body {
 
 #Nav {
     display: none;
+    background-color: #D5C7BC ;
 }
 
 #Nav a {
     display: block;
     text-decoration: none;
-    color: black;
+    background-color: #454545;
+    color: white;
+}
+
+#Nav a:hover {
+    background-color: #454545;
+    color: white;
+}
+
+#Nav > a {
+    font-family: Leelawadee;
+    padding: 2px;
+    text-align: center;
 }
 
 /* Title */
@@ -101,35 +118,34 @@ body {
     font-family: "Asap";
     text-align: center;
     font-size: 1.1rem;
+    color: #454545;
+    padding-top: 10px ;
 }
 
 /* Main */
 
-#main {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-wrap: wrap;
-    gap: 5px;
-
+.albumcover > a > img {
+    border: 1px #81747A solid;
 }
 
 .albumcover {
     padding: 1vm;
-    width: 135px;
 }
-
-
 
 #main > div > p {
     font-family: "Leelawadee";
     font-weight: bold;
-    font-size: 0.7rem;
     text-align: center;
 }
 
-
 /* Footer */
+
+#footer > .icon {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 0;
+    padding-left: 5px;
+}
 
 .footertext {
     text-align: center;
