@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1024px){
+    /* Main */
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 35px;
+
+    }
+
+    .albumcover {
+        width: 235px;
+    }
+
+    #main > div > p {
+        font-size: 0.9rem;
+    }
+
+    .image_full{
+        display:block;
+    }
+
+    .image_mobile{
+        display:none;
+    }
+
+}

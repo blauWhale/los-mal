@@ -16,3 +16,9 @@
 #main > div > p {
     font-size: 0.7rem;
 }
+
+
+
+.image_full{
+    display:none;
+}
