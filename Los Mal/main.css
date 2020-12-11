@@ -83,7 +83,7 @@ body {
 
 .logo {
     text-align: center;
-
+    overflow-x: hidden ;
 }
 
 /*Navigation */
@@ -113,7 +113,7 @@ body {
     color: white;
 }
 
-#Nav > a {
+#Nav  a {
     font-family: Leelawadee;
     padding: 2px;
     text-align: center;
