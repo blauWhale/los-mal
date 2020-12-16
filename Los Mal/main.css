@@ -20,7 +20,7 @@ html {
 
 p {
     color: #454545;
-    font-family: Leelawadee;
+    font-family: Leelawadee, sans-serif;
 }
 
 a {
@@ -120,7 +120,7 @@ a {
 }
 
 #Nav  a {
-    font-family: Leelawadee;
+    font-family: Leelawadee, sans-serif;
     padding: 2px;
     text-align: center;
 }
@@ -128,7 +128,7 @@ a {
 /* Title */
 
 #title {
-    font-family: "Asap";
+    font-family: "Asap", sans-serif;
     text-align: center;
     font-size: 1.1rem;
     color: #454545;
@@ -144,7 +144,7 @@ a {
 
 
 #main > div > p {
-    font-family: "Leelawadee";
+    font-family: "Leelawadee", sans-serif;
     font-weight: bold;
     text-align: center;
 }
@@ -161,7 +161,7 @@ a {
 .footertext {
     text-align: center;
     font-size: 0.7rem;
-    font-family: "Leelawadee";
+    font-family: "Leelawadee", sans-serif;
     margin-top: 20px;
 
 }

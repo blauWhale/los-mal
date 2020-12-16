@@ -112,7 +112,7 @@
     }
 
     #side div div p {
-        font-family: "Leelawadee";
+        font-family: "Leelawadee", sans-serif;
         font-weight: bold;
         text-align: center;
     }
@@ -128,7 +128,7 @@
     }
 
     #main > article {
-        font-family: Leelawadee;
+        font-family: Leelawadee, sans-serif;
         padding-top: 20px;
         margin-left: 10px;
     }
