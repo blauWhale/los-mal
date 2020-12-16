@@ -75,7 +75,11 @@
 
     #title p {
         font-weight: bold;
-        margin-top: 10px;
+        text-align: left;
+    }
+
+    #title h1 {
+        text-align: left;
     }
 
     /* Side */
@@ -86,7 +90,13 @@
         align-items: start;
         flex-wrap: wrap;
         gap: 50px;
+        margin-left:100px;
 
     }
 
+    #side div div p {
+        font-family: "Leelawadee";
+        font-weight: bold;
+        text-align: center;
+    }
 }

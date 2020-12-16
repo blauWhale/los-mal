@@ -26,4 +26,7 @@
         display:none;
     }
 
+    .albumcover a img:last-child{
+        justify-content: flex-start;
+    }
 }
