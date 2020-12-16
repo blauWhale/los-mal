@@ -1,7 +1,3 @@
-* {
-    overflow-x: hidden;
-}
-
 table {
     width:100%;
     font-family: Leelawadee;
@@ -31,4 +27,26 @@ th {
     background-color: #D5C7BC;
     color: #454545;
     font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+    /*Navigation*/
+
+    .navigationlink {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        text-decoration: none;
+        color: #454545;
+        visibility: visible;
+
+    }
+
+    #Nav {
+        display: none;
+    }
+
+    .menuicon {
+        display: none;
+    }
 }

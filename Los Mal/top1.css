@@ -22,7 +22,11 @@
         display:none;
     }
 
+    /*Side*/
+
     .albumcover_side {
         display: none;
     }
+
+
 }
