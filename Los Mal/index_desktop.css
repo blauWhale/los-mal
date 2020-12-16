@@ -6,7 +6,7 @@
         justify-content: space-between;
         align-items: start;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 65px;
 
     }
 
@@ -24,9 +24,5 @@
 
     .image_mobile{
         display:none;
-    }
-
-    .albumcover a img:last-child{
-        justify-content: flex-start;
     }
 }
