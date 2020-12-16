@@ -1,3 +1,122 @@
+@media only screen and (min-width: 1024px){
+    /*Navigation*/
+
+    .navigationlink {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        text-decoration: none;
+        color: #454545;
+        visibility: visible;
+
+    }
+
+    #Nav {
+        display: none;
+    }
+
+    .menuicon {
+        display: none;
+    }
+    /* Layout */
+    .grid-container-body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100px 250px 1fr 1fr 100px;
+        grid-template-rows: 80px 90px auto 80px;
+        grid-template-areas:
+                "header header header header header"
+                ". . . . ."
+                ". title main side ."
+                "footer footer footer footer footer";
+    }
+
+    #header {
+        grid-area: header;
+        border-bottom: 1px black solid;
+    }
+
+
+    #title {
+        grid-area: title;
+    }
+
+    #main {
+        grid-area: main;
+    }
+
+    #side {
+        grid-area: side;
+    }
+
+    #footer {
+        grid-area: footer;
+        border-top: 1px black solid;
+    }
+
+    /* Main */
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-right: 110px;
+    }
+
+    .albumcover {
+        width: 235px;
+
+    }
+
+    #main > div > p {
+        font-size: 0.9rem;
+    }
+
+    .image_full{
+        display:block;
+    }
+
+    .image_mobile{
+        display:none;
+    }
+
+    .albumcover_side {
+        display: block;
+    }
+
+    /* Title */
+
+    #title p {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #title h1 {
+        text-align: left;
+    }
+
+    /* Side */
+
+
+    #side .albumcover_side {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 65px;
+        margin-left:100px;
+
+    }
+
+    #side div div p {
+        font-family: "Leelawadee";
+        font-weight: bold;
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 1024px){
     /* Main */
     #main {

@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1024px){
+    /* Main */
+    #main {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+
+    }
+
+    #main > article {
+        font-family: Leelawadee;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+
+    article a {
+        text-decoration: none;
+    }
+
+    .image_full{
+        display:none;
+    }
+
+    /*Side*/
+
+    .albumcover_side {
+        display: none;
+    }
+
+    .audio {
+        text-align: center;
+    }
+
+}

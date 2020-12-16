@@ -27,6 +27,7 @@ a {
     color: #123C69;
 }
 
+
 /* Layout */
 .grid-container-body {
     width: 100vw;
@@ -140,9 +141,7 @@ a {
     border: 1px #81747A solid;
 }
 
-.albumcover {
-    padding: 1vm;
-}
+
 
 #main > div > p {
     font-family: "Leelawadee";
@@ -164,5 +163,70 @@ a {
     font-size: 0.7rem;
     font-family: "Leelawadee";
     margin-top: 20px;
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /* Layout */
+    .grid-container-body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100px 1fr 100px;
+        grid-template-rows: 80px 90px auto 80px;
+        grid-template-areas:
+                "header header header"
+                ". title ."
+                ". main ."
+                "footer footer footer";
+    }
+
+    #header {
+        grid-area: header;
+        border-bottom: 1px black solid;
+    }
+
+
+    #title {
+        grid-area: title;
+    }
+
+    #main {
+        grid-area: main;
+    }
+
+    #footer {
+        grid-area: footer;
+        border-top: 1px black solid;
+    }
+
+    /* Header */
+
+    .menuicon {
+        display: none;
+    }
+
+    .navigationlink {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        text-decoration: none;
+        color: #454545;
+        visibility: visible;
+
+
+    }
+    .navigationlink:hover {
+        background-color: #81747A;
+    }
+    /* Nav */
+
+    #Nav {
+        display: none;
+    }
+
+
+
 
 }
