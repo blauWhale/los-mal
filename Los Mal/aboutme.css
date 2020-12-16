@@ -1,19 +1,14 @@
-/* Main */
-#main {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-wrap: wrap;
+.audio_full{
+    display:none;
+}
+@media only screen and (min-width: 1024px){
 
+    .audio_full{
+        display:block;
+    }
+
+    .audio_mobile{
+        display:none;
+    }
 }
 
-#main > article {
-    font-family: Leelawadee;
-    padding-top: 20px;
-    margin-left: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #123C69;
-}

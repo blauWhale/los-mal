@@ -63,7 +63,7 @@
         align-items: start;
         flex-wrap: wrap;
         gap: 50px;
-
+        margin-right: 110px;
     }
 
     .albumcover {
@@ -99,6 +99,7 @@
     }
 
     /* Side */
+
 
     #side .albumcover_side {
         display: flex;

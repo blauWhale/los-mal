@@ -28,5 +28,8 @@
         display: none;
     }
 
+    .audio {
+        text-align: center;
+    }
 
 }
