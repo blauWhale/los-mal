@@ -16,23 +16,21 @@
 
     #header {
         grid-area: header;
-        border: 1px black solid;
+        border-bottom: 1px black solid;
     }
 
 
     #title {
         grid-area: title;
-        border: 1px black solid;
     }
 
     #main {
         grid-area: main;
-        border: 1px black solid;
     }
 
     #footer {
         grid-area: footer;
-        border: 1px black solid;
+        border-top: 1px black solid;
     }
 
     /* Header */
